@@ -26,7 +26,7 @@
             </objects>
             <point key="canvasLocation" x="-1344" y="18"/>
         </scene>
-        <!--View Controller-->
+        <!--Registration-->
         <scene sceneID="IXP-lF-AAl">
             <objects>
                 <viewController id="pVI-dL-WPE" sceneMemberID="viewController">
@@ -35,37 +35,25 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="First Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Xih-Nq-7ME">
-                                <rect key="frame" x="16" y="89" width="100" height="30"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="100" id="sXE-Al-eQd"/>
-                                </constraints>
+                                <rect key="frame" x="16" y="89" width="343" height="30"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Last Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="6dn-g4-On3">
-                                <rect key="frame" x="16" y="144" width="100" height="30"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="100" id="7Ik-j5-Bxg"/>
-                                </constraints>
+                                <rect key="frame" x="16" y="144" width="343" height="30"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="6qg-Rc-618">
-                                <rect key="frame" x="16" y="199" width="100" height="30"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="100" id="P0s-fT-Ssa"/>
-                                </constraints>
+                                <rect key="frame" x="16" y="199" width="343" height="30"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ZiR-3x-g8F">
-                                <rect key="frame" x="16" y="254" width="100" height="30"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="100" id="auN-2P-mCG"/>
-                                </constraints>
+                                <rect key="frame" x="16" y="254" width="343" height="30"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -78,13 +66,17 @@
                             <constraint firstItem="6qg-Rc-618" firstAttribute="top" secondItem="6dn-g4-On3" secondAttribute="bottom" constant="25" id="Itf-YT-jC1"/>
                             <constraint firstItem="Xih-Nq-7ME" firstAttribute="top" secondItem="A9i-7Y-KNG" secondAttribute="top" constant="25" id="J7o-uZ-6tS"/>
                             <constraint firstItem="6dn-g4-On3" firstAttribute="leading" secondItem="A9i-7Y-KNG" secondAttribute="leading" constant="16" id="Lmy-Sn-jfR"/>
+                            <constraint firstItem="A9i-7Y-KNG" firstAttribute="trailing" secondItem="Xih-Nq-7ME" secondAttribute="trailing" constant="16" id="MQd-Py-XiP"/>
+                            <constraint firstItem="A9i-7Y-KNG" firstAttribute="trailing" secondItem="6qg-Rc-618" secondAttribute="trailing" constant="16" id="Pmt-Fx-sDh"/>
                             <constraint firstItem="ZiR-3x-g8F" firstAttribute="top" secondItem="6qg-Rc-618" secondAttribute="bottom" constant="25" id="cVM-iB-OeB"/>
+                            <constraint firstItem="A9i-7Y-KNG" firstAttribute="trailing" secondItem="ZiR-3x-g8F" secondAttribute="trailing" constant="16" id="ceY-ZQ-ey9"/>
                             <constraint firstItem="Xih-Nq-7ME" firstAttribute="leading" secondItem="A9i-7Y-KNG" secondAttribute="leading" constant="16" id="hTb-M1-Mlv"/>
                             <constraint firstItem="6dn-g4-On3" firstAttribute="top" secondItem="Xih-Nq-7ME" secondAttribute="bottom" constant="25" id="mPX-LE-xd5"/>
+                            <constraint firstItem="A9i-7Y-KNG" firstAttribute="trailing" secondItem="6dn-g4-On3" secondAttribute="trailing" constant="16" id="mWw-Sq-SDY"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="A9i-7Y-KNG"/>
                     </view>
-                    <navigationItem key="navigationItem" id="nm3-uZ-vMb">
+                    <navigationItem key="navigationItem" title="Registration" id="nm3-uZ-vMb">
                         <barButtonItem key="rightBarButtonItem" title="Save" id="Kcl-vy-fUp"/>
                     </navigationItem>
                 </viewController>
