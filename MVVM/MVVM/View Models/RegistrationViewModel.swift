@@ -15,7 +15,7 @@ class RegistrationViewModel {
     var email: String
     var password: String
     
-    init(firstName: String, lastName: String, email: String, password: String) {
+    init(_ firstName: String, _ lastName: String, _ email: String, _ password: String) {
         self.firstName = firstName;
         self.lastName = lastName;
         self.email = email;
