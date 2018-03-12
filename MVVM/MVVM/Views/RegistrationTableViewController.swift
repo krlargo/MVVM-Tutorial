@@ -9,22 +9,24 @@
 import Foundation
 import UIKit
 
+/*
+ ViewController
+ - uses ViewModel
+ - doesn't touch DomainObject
+ */
+
 class RegistrationTableViewController: UITableViewController {
     
     @IBOutlet weak var firstNameTextField: UITextField!
     @IBOutlet weak var lastNameTextField: UITextField!
     @IBOutlet weak var emailTextField: UITextField!
     @IBOutlet weak var passwordTextField: UITextField!
+
+    private var registrationViewModel: RegistrationViewModel!
     
-    override func viewDidLoad() {
-        super.viewDidLoad();
-    }
-    
-    override func numberOfSections(in tableView: UITableView) -> Int {
-        return 1;
-    }
-    
-    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 4;
+    @IBAction func save() {
+        // Code that would normally exist in this ViewController (for MVC) is now handled by the ViewModel
+        self.registrationViewModel = RegistrationViewModel(firstName, lastName, email, password);
+        self.registrationViewModel.save();
     }
 }

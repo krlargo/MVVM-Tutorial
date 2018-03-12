@@ -89,8 +89,6 @@
 		381D3B4F2055FD46005B2B4C /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				38CB033A202B208C003C16AA /* Main.storyboard */,
-				38CB033F202B208C003C16AA /* LaunchScreen.storyboard */,
 				381D3B532055FE94005B2B4C /* RegistrationTableViewController.swift */,
 			);
 			path = Views;
@@ -133,6 +131,8 @@
 				38CB0336202B208C003C16AA /* AppDelegate.swift */,
 				38CB033D202B208C003C16AA /* Assets.xcassets */,
 				38CB0342202B208C003C16AA /* Info.plist */,
+				38CB033A202B208C003C16AA /* Main.storyboard */,
+				38CB033F202B208C003C16AA /* LaunchScreen.storyboard */,
 			);
 			path = MVVM;
 			sourceTree = "<group>";
