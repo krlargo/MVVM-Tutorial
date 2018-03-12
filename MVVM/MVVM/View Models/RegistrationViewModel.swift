@@ -22,4 +22,8 @@ class RegistrationViewModel {
         self.password = password;
     }
     
+    func save() {
+        let user = User(vm: self);
+        // DataAccess.save(user); // What you would do next
+    }
 }
