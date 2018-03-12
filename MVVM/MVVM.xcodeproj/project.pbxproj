@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		381D3B522055FE0F005B2B4C /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381D3B512055FE0F005B2B4C /* User.swift */; };
+		381D3B542055FE94005B2B4C /* RegistrationTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381D3B532055FE94005B2B4C /* RegistrationTableViewController.swift */; };
 		38CB0337202B208C003C16AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38CB0336202B208C003C16AA /* AppDelegate.swift */; };
 		38CB033C202B208C003C16AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38CB033A202B208C003C16AA /* Main.storyboard */; };
 		38CB033E202B208C003C16AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38CB033D202B208C003C16AA /* Assets.xcassets */; };
@@ -35,6 +36,7 @@
 
 /* Begin PBXFileReference section */
 		381D3B512055FE0F005B2B4C /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		381D3B532055FE94005B2B4C /* RegistrationTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationTableViewController.swift; sourceTree = "<group>"; };
 		38CB0333202B208C003C16AA /* MVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVVM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		38CB0336202B208C003C16AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		38CB033B202B208C003C16AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -94,6 +96,7 @@
 		381D3B502055FD4C005B2B4C /* View Models */ = {
 			isa = PBXGroup;
 			children = (
+				381D3B532055FE94005B2B4C /* RegistrationTableViewController.swift */,
 			);
 			path = "View Models";
 			sourceTree = "<group>";
@@ -284,6 +287,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				381D3B522055FE0F005B2B4C /* User.swift in Sources */,
+				381D3B542055FE94005B2B4C /* RegistrationTableViewController.swift in Sources */,
 				38CB0337202B208C003C16AA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

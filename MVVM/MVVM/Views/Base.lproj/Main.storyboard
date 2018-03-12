@@ -29,7 +29,7 @@
         <!--Registration-->
         <scene sceneID="IXP-lF-AAl">
             <objects>
-                <viewController id="pVI-dL-WPE" sceneMemberID="viewController">
+                <viewController id="pVI-dL-WPE" customClass="RegistrationTableViewController" customModule="MVVM" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5Nv-gz-U4n">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -79,6 +79,12 @@
                     <navigationItem key="navigationItem" title="Registration" id="nm3-uZ-vMb">
                         <barButtonItem key="rightBarButtonItem" title="Save" id="Kcl-vy-fUp"/>
                     </navigationItem>
+                    <connections>
+                        <outlet property="emailTextField" destination="6qg-Rc-618" id="PEi-xz-pr5"/>
+                        <outlet property="firstNameTextField" destination="Xih-Nq-7ME" id="87p-Vs-bE8"/>
+                        <outlet property="lastNameTextField" destination="6dn-g4-On3" id="h7b-4F-KN3"/>
+                        <outlet property="passwordTextField" destination="ZiR-3x-g8F" id="gXP-4U-GWP"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dXL-Mk-gzn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
